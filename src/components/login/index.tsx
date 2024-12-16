@@ -3,6 +3,8 @@ import { LinearGradient } from "expo-linear-gradient";
 import { s } from "./styles";
 import React, { useState } from "react";
 import { CheckBox } from "react-native-elements";
+import  Button  from '@/components/button/index'
+
 
 export default function LoginComponent() {
 
@@ -22,7 +24,7 @@ export default function LoginComponent() {
           source={require("../../assets/reduzziLogoBlue.png")}
           style={s.logo}
         />
-        <Text style={s.title}>Bem vindo</Text>
+        <Text style={s.title}>Bem vindo(a)</Text>
         <Text style={s.subtitle}>Insira seus dados e faça seu login</Text>
         <View style={s.inputs}>
           <TextInput
@@ -55,6 +57,11 @@ export default function LoginComponent() {
             <Text style={s.forgotText}>Esqueceu a senha?</Text>
           </TouchableOpacity>
         </View>
+        <Button activeOpacity={0.8}>
+          <Button.Title>
+            Logar
+          </Button.Title>
+        </Button>
       </LinearGradient>
     </View>
   );

@@ -1,4 +1,4 @@
-import { Stack } from "expo-router";
+import { Stack, Tabs } from "expo-router";
 import { colors } from "@/styles/theme";
 
 import { useFonts, Rubik_400Regular, Rubik_500Medium, Rubik_600SemiBold,Rubik_700Bold } from '@expo-google-fonts/rubik'
@@ -24,5 +24,7 @@ export default function Layout() {
         contentStyle: { backgroundColor: colors.gray[100] },
       }}
     />
+    
+    
   );
 }

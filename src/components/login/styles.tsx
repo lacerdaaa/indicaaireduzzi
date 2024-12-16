@@ -38,6 +38,7 @@ export const s = StyleSheet.create({
         padding: 10,
     },
     forgot: {
+        marginTop: 10,
         minWidth: '85%',
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -58,7 +59,5 @@ export const s = StyleSheet.create({
         color: colors.blue[200],
         fontFamily: fontFamily.medium,
     },
-    button: {
-
-    },    
+     
 })
