@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 
 export const s = StyleSheet.create({
     container: {
-        height: 500,
+        height: 450,
         width: '90%',
         borderRadius: 15,
     },
@@ -23,13 +23,42 @@ export const s = StyleSheet.create({
     },
     subtitle: {
         fontFamily: fontFamily.regular,
-        color: colors.gray[500]
+        color: colors.gray[500],
+        fontSize: 16
+    },
+    inputs: {
+        gap: 20,
+        marginTop: 20,
     },
     input: {
-
+        backgroundColor: '#FFF',
+        minWidth: '85%',
+        minHeight: 50,
+        borderRadius: 5,
+        padding: 10,
+    },
+    forgot: {
+        minWidth: '85%',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+    },
+    checkboxContainer: {
+        backgroundColor: 'transparent',
+        borderWidth: 0,
+        padding: 0,
+    },
+    checkboxText: {
+        fontSize: 14,
+        fontFamily: fontFamily.medium,
+        color: colors.gray[500],
+    },
+    forgotText: {
+        fontSize: 14,
+        color: colors.blue[200],
+        fontFamily: fontFamily.medium,
     },
     button: {
 
-    },
-    
+    },    
 })
